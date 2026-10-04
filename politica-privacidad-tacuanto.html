@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TaCuánto — Política de Privacidad</title>
+<style>
+  :root {
+    --bg: #F8FAFC;
+    --card: #FFFFFF;
+    --brand-dark: #052E16;
+    --brand-green: #16A34A;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --border: #E2E8F0;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B1512;
+      --card: #10201A;
+      --brand-dark: #0F2E1E;
+      --brand-green: #4ADE80;
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --border: #1E2E27;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0B1512;
+    --card: #10201A;
+    --brand-dark: #0F2E1E;
+    --brand-green: #4ADE80;
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --border: #1E2E27;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  header {
+    background: var(--brand-dark);
+    padding: 32px 20px;
+    text-align: center;
+  }
+  header .wordmark {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  header .wordmark .ta { color: #F8FAFC; }
+  header .wordmark .cuanto { color: var(--brand-green); }
+  header .subtitle {
+    margin-top: 6px;
+    color: #A7B4AC;
+    font-size: 14px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 24px 8px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0 0 4px;
+  }
+  .updated {
+    color: var(--text-secondary);
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 17px;
+    color: var(--brand-green);
+    margin: 0 0 10px;
+  }
+  p, li {
+    color: var(--text-secondary);
+    font-size: 15px;
+  }
+  ul { padding-left: 20px; margin: 8px 0 16px; }
+  li { margin-bottom: 6px; }
+  .contact {
+    background: var(--brand-dark);
+    color: #F8FAFC;
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-top: 24px;
+  }
+  .contact a {
+    color: var(--brand-green);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 12px;
+    padding: 20px;
+  }
+  .toc {
+    font-size: 14px;
+  }
+  .toc a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+  }
+  .toc a:hover { color: var(--brand-green); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wordmark"><span class="ta">Ta</span><span class="cuanto">Cuánto</span></div>
+  <div class="subtitle">Política de Privacidad</div>
+</header>
+
+<main>
+  <div class="card">
+    <h1>Política de Privacidad de TaCuánto</h1>
+    <div class="updated">Última actualización: septiembre de 2026</div>
+    <p>
+      Esta Política de Privacidad describe cómo la aplicación <strong>TaCuánto</strong>
+      (desarrollada por Victor David García Meza / Grafimedia Venezuela) maneja la información
+      al usar la aplicación para Android. Al usar TaCuánto, aceptas las prácticas descritas aquí.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>1. Resumen breve</h2>
+    <p>
+      <strong>TaCuánto no recopila, almacena ni comparte ningún dato personal de sus usuarios.</strong>
+      La aplicación consulta únicamente fuentes públicas de tasas de cambio para mostrarlas en
+      pantalla. No se requiere crear una cuenta, no se piden datos personales, y no se recopila
+      información de identificación del dispositivo ni del usuario.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>2. Información que NO recopilamos</h2>
+    <ul>
+      <li>No recopilamos nombres, correos electrónicos, números de teléfono ni ningún otro dato de identificación personal.</li>
+      <li>No accedemos a contactos, mensajes, fotos, archivos ni a ningún otro contenido personal del dispositivo.</li>
+      <li>No usamos identificadores publicitarios ni rastreamos el comportamiento del usuario entre aplicaciones.</li>
+      <li>No usamos cuentas de usuario, ni pedimos inicio de sesión.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. Permisos que utiliza la aplicación y por qué</h2>
+    <ul>
+      <li><strong>Mostrar sobre otras aplicaciones (overlay):</strong> necesario para dibujar la barra flotante que muestra las tasas de cambio sobre otras apps.</li>
+      <li><strong>Internet:</strong> necesario para consultar las tasas de cambio actualizadas desde fuentes públicas.</li>
+      <li><strong>Servicio en primer plano (Foreground Service):</strong> necesario para que la barra flotante permanezca activa mientras usas el teléfono.</li>
+      <li><strong>Notificaciones:</strong> Android exige mostrar una notificación persistente mientras un servicio en primer plano está activo; esta notificación solo informa que TaCuánto está en ejecución.</li>
+      <li><strong>Estado de la red:</strong> permite detectar cuándo el teléfono recupera la conexión a internet, para actualizar las tasas más rápido tras un corte de red.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Fuentes de datos externas</h2>
+    <p>
+      Para obtener las tasas de cambio, TaCuánto consulta APIs públicas de terceros
+      (servicios de referencia cambiaria para Venezuela y Colombia). Estas consultas
+      son anónimas: la aplicación solo solicita el valor actual de las divisas, sin enviar
+      ningún dato personal ni identificador del usuario a esos servicios.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>5. Publicidad</h2>
+    <p>
+      La calculadora de TaCuánto incluye un espacio visual identificado como "Publicidad".
+      Este espacio puede, en el futuro, redirigir a un enlace externo configurado por el
+      desarrollador o por un anunciante. TaCuánto no comparte ningún dato personal con
+      anunciantes; cualquier sitio externo al que se acceda desde ese espacio tiene su
+      propia política de privacidad, independiente de esta.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>6. Menores de edad</h2>
+    <p>
+      TaCuánto no está dirigida a menores de 13 años y no recopila intencionalmente
+      información de menores, ya que la aplicación no recopila información personal de
+      ningún usuario.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>7. Cambios a esta política</h2>
+    <p>
+      Esta política puede actualizarse ocasionalmente para reflejar cambios en la
+      aplicación. La fecha de la última actualización se muestra al inicio de esta página.
+      El uso continuado de TaCuánto después de un cambio implica la aceptación de la
+      política actualizada.
+    </p>
+  </div>
+
+  <div class="contact">
+    <h2 style="color:#F8FAFC; margin-top:0;">Contacto</h2>
+    <p style="color:#CBD5C9; margin-bottom:0;">
+      Si tienes preguntas sobre esta Política de Privacidad, puedes escribir a:<br>
+      <a href="mailto:victordavidgarcia192@gmail.com">victordavidgarcia192@gmail.com</a>
+    </p>
+  </div>
+</main>
+
+<footer>
+  TaCuánto — Desarrollado por Victor David García Meza · Grafimedia Venezuela
+</footer>
+
+</body>
+</html>
